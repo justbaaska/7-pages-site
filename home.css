@@ -11,12 +11,12 @@
     justify-content: space-between;
     align-items: center;
 }
-nav{
+.header-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-nav>ul>li{
+.header_nav>li{
     display: inline-block;
     padding: 18px 30px 18px 0px;
     color: #394149;
@@ -24,7 +24,7 @@ nav>ul>li{
     font-size: 16px;
     transition: 0.3s all;
 }
-nav>ul>li:hover{
+.header_nav>li:hover{
     color: #1671b1;
 }
 .nav-btn{

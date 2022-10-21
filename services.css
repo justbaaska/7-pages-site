@@ -84,6 +84,7 @@
 .feature-1{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 128px;
 }
 .feature-1_img{
     position: relative;
@@ -118,13 +119,134 @@
     line-height: 30px;
     margin-bottom: 24px;
 }
-.feature-li{
+.feature-list{
+    margin-left: 20px;
+}
+.feature-list>.feature-li{
     color: #5B5B5B;
     font-weight: 500;
     font-size: 16px;
     line-height: 28px;
+    list-style-type: disc;
 }
-
+.feature-2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 128px;
+}
+.feature-2_img{
+    position: relative;
+}
+.feature-2_img-bar{
+    width: 97px;
+    height: 97px;
+    position: absolute;
+    right: -48.5px;
+    top: 272px;
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+}
+.feature-2_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 96px;
+}
+.feature-2_text>h1{
+    color: #0D1317;
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+.feature-2_text>p{
+    color: #5B5B5B;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+.feature-3_img-bar{
+    width: 97px;
+    height: 97px;
+    position: absolute;
+    left: -48.5px;
+    top: 217px;
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+}
+.feature-4_img-bar{
+    width: 97px;
+    height: 97px;
+    position: absolute;
+    right: -48.5px;
+    top: 272px;
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+}
+.feature-5_img-bar{
+    width: 97px;
+    height: 97px;
+    position: absolute;
+    left: -48.5px;
+    top: 342px;
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+}
+.video-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.video-left>h1{
+    color: #0D1317;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    width: 550px; 
+    margin-bottom: 24px;  
+}
+.person{
+    display: flex;
+    justify-content: flex-start;
+}
+.video-left>p{
+    color: #5B5B5B;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    width: 550px;
+    margin-bottom: 40px;
+}
+.about-person{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 24px;
+}
+.about-person>h1{
+    color: #063255;
+    font-weight: 500;
+    font-size: 24px;
+}
+.about-person>h2{
+    color: #F58A07;
+    font-weight: 500;
+    font-size: 18px;
+}
+.video-img{
+    position: relative;
+}
+.play-icon{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
 /* end of main style*/
 /* start of footer style */
 footer{
@@ -240,4 +362,3 @@ footer{
     color: #F58A07;
 }
 /* end of footer style */
-/* test'lam[iofhioffiah[iogit */

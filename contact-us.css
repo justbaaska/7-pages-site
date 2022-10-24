@@ -81,6 +81,10 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
+    transition: 0.3s all;
+}
+.contact-us>a:hover{
+    color: #1671b1;
 }
 .contact-section{
     display: flex;
@@ -98,7 +102,7 @@
 }
 .input-contact-1>input{
     background: rgba(210, 218, 237, 0.17);
-    padding: 17px 400px 130px 32px;
+    padding: 17px 400px 206px 32px;
     border-radius: 31px;
     border: 0;
     font-weight: 500;
@@ -119,6 +123,7 @@
     margin-top: 16px;
     transition: 0.5s all;
     margin-bottom: 128px;
+    cursor: pointer;
 }
 .submit-btn:hover{
     background: #fff;
@@ -237,5 +242,18 @@ footer{
 .subscribe-btn:hover{
     background: #fff;
     color: #F58A07;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+.footer-bottom>p{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+}
+.mid-p{
+    margin-left: 733px;
 }
 /* end of footer style */
